@@ -1,3 +1,4 @@
+/* Credit-card class exercise: constructors, validation, and display. */
 #include <iostream>
 #include "CC.h"
 #include "cstr.h"
