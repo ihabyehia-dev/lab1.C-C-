@@ -75,7 +75,7 @@ namespace sdds {
    }
    void CC::printLine(const char* name,unsigned long long number, short year,short month,short cvv) const {
       char temp[31]{};
-      strcpy(temp,name,30);
+      strCpy(temp,name,30);
       cout << "| ";
       cout.width(30);
       cout.setf(ios::left);
@@ -93,7 +93,7 @@ namespace sdds {
       if (isEmpty()) {
          cout << "Invalid Credit Card Record" << endl;
       } else {
-         printLine(name,numberexp,Year,expMonth,cvv);
+         printLine(name,number,expYear,expMonth,cvv);
       }
    }
 }
